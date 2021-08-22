@@ -1,0 +1,43 @@
+{
+  "name": "asmbr/yii2-wallet",
+  "description": "Yii2 wallet module",
+  "keywords": ["yii2", "asmbr", "wallet", "transactions"],
+  "type": "yii2-extension",
+  "license": "ASM BRAIN LLC",
+  "minimum-stability": "dev",
+  "repositories": [
+    {"type": "composer", "url": "http://packagist.asmbr.com/"}
+  ],
+  "authors": [
+    {
+      "name": "Pudich Denis",
+      "email": "pudichdenis@gmail.com"
+    },
+    {
+      "name": "Budnitsky Roman",
+      "email": "dev.brom@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0"
+  },
+  "require-dev": {
+    "yiisoft/yii2-faker": "*",
+    "yiisoft/yii2-codeception": "*",
+    "codeception/verify": "*",
+    "codeception/specify": "*",
+    "codeception/aspect-mock": "*",
+    "asmbr/math": "dev-staging@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "asmbr\\wallet\\": ""
+    }
+  },
+  "extra": {
+    "bootstrap": "asmbr\\wallet\\Bootstrap"
+  },
+  "config": {
+    "secure-http": false
+  }
+}
