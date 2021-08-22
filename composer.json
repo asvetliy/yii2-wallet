@@ -7,10 +7,6 @@
   "minimum-stability": "dev",
   "repositories": [
     {
-      "type": "composer",
-      "url": "http://packagist.asmbr.com/"
-    },
-    {
       "type": "git",
       "url": "https://github.com/asvetliy/math"
     }
