@@ -1,21 +1,24 @@
 {
-  "name": "asmbr/yii2-wallet",
+  "name": "binary/yii2-wallet",
   "description": "Yii2 wallet module",
-  "keywords": ["yii2", "asmbr", "wallet", "transactions"],
+  "keywords": ["yii2", "wallet", "transactions"],
   "type": "yii2-extension",
-  "license": "ASM BRAIN LLC",
+  "license": "BSD-3-Clause",
   "minimum-stability": "dev",
   "repositories": [
-    {"type": "composer", "url": "http://packagist.asmbr.com/"}
+    {
+      "type": "composer",
+      "url": "http://packagist.asmbr.com/"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/asvetliy/math"
+    }
   ],
   "authors": [
     {
-      "name": "Pudich Denis",
-      "email": "pudichdenis@gmail.com"
-    },
-    {
-      "name": "Budnitsky Roman",
-      "email": "dev.brom@gmail.com"
+      "name": "Alex",
+      "email": "htc.fail.hell@gmail.com"
     }
   ],
   "require": {
@@ -27,7 +30,7 @@
     "codeception/verify": "*",
     "codeception/specify": "*",
     "codeception/aspect-mock": "*",
-    "asmbr/math": "dev-staging@dev"
+    "binary/math": "dev-staging@dev"
   },
   "autoload": {
     "psr-4": {
