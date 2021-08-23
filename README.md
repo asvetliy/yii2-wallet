@@ -17,5 +17,5 @@
 
 Command for create base migration module
  
-`path/to/you/baseProject$ ./yii migrate/up --migrationPath=vendor/asmbr/yii2-wallet/migrations`
+`path/to/you/baseProject$ ./yii migrate/up --migrationPath=vendor/binary/yii2-wallet/migrations`
 

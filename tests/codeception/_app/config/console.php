@@ -9,7 +9,7 @@ return [
     'controllerMap' => [
         'migrate' => [
             'class' => 'yii\console\controllers\MigrateController',
-            'migrationPath' => '@vendor/asmbr/yii2-wallet/migrations',
+            'migrationPath' => '@vendor/binary/yii2-wallet/migrations',
         ],
     ],
     'components' => [
